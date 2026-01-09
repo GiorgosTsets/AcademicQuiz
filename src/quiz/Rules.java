@@ -10,6 +10,7 @@ public class Rules extends JFrame implements ActionListener{
     JButton start, back;
     
     Rules(String name) {
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.name = name;
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);

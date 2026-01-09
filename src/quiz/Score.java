@@ -7,6 +7,7 @@ import java.awt.event.*;
 public class Score extends JFrame implements ActionListener {
 
     Score(String name, int score) {
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(400, 150, 750, 550);
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);

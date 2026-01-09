@@ -22,6 +22,7 @@ public class Quiz extends JFrame implements ActionListener {
     String name;
     
     Quiz(String name) {
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.name = name;
         setBounds(50, 0, 1440, 850);
         getContentPane().setBackground(Color.WHITE);
